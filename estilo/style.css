@@ -37,3 +37,20 @@ iframe#tela{
     height: 475px;
     width: 268px;
 }
+section#icones{
+    text-align: right;
+}
+
+a > img{
+    border-radius: 50%;
+    width: 65px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
+    box-sizing: border-box;
+}
+section#icones img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.636);
+    transition: transform .7s, border 1s;
+}
